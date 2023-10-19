@@ -144,12 +144,46 @@ body {
 
 .box_nine {
     width: 100%;
-    height: 550px;
+    height: auto;
     display: flex;
+    padding: 90px;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
     background-color: #FFFFE0;
+    justify-content: center;
+    align-items: center;
+    
+    
 
+}
+
+.sub_box_nine {
+    display: inline;
+    width: auto;
+    height: 100%;
+    padding: 15px;
+    background-color: #FFA500;
+    border-radius: 12px;
+}
+
+.foto6{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.foto7{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.alinhar{
+    display: inline;
 }
 
 .bordaSala {
