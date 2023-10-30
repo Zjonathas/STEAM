@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: #FFFFFF url("imgs/aaaa.jpg");
 }
 
 .teste1{
@@ -26,10 +27,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     font: solid rgb(0, 0, 0);
+    background-color: #FFFFE0e0;
     text-align: right;
-    background-color: #FFFFE0;
     gap: 100px;
 }
 
@@ -75,7 +75,7 @@ body {
     border-bottom: 1px solid black;
     font: solid rgb(0, 0, 0);
     text-align: right;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
     gap: 100px;
 
 }
@@ -86,7 +86,7 @@ body {
     align-items: center;
     padding: 20px;
     padding-top: 15px;
-    background-color: #A0522D;
+    background-color: #0059ffe0;
     height: 50vh;
 
 }
@@ -99,7 +99,7 @@ body {
     border-bottom: 1px solid black;
     font: solid rgb(0, 0, 0);
     text-align: right;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -118,6 +118,10 @@ body {
 
 .sombra{
     Box-shadow: 5px 5px 15px #8d5c02;
+}
+
+.sombra_box_nine{
+    Box-shadow: 5px 5px 15px #003221;
 }
 
 .box {
@@ -164,7 +168,7 @@ body {
     flex-wrap: wrap;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
     justify-content: space-evenly;
 }
 .title_box_six{
@@ -209,7 +213,7 @@ body {
     display: flex;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
 }
 
 .box_height {
@@ -218,7 +222,7 @@ body {
     display: flex;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
 
 }
 
@@ -229,7 +233,7 @@ body {
     padding: 40px;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
     justify-content: center;
     align-items: center;
     
@@ -251,9 +255,9 @@ body {
     width: auto;
     height: 600px;
     padding: 50px;
-    background-color: #FFA500;
+    background-color: #00ffa6;
     border-radius: 12px;
-    Box-shadow: 5px 5px 15px #8d5c02;
+    Box-shadow: 5px 5px 15px #003221;
 }
 
 .img{
@@ -273,7 +277,7 @@ body {
 .bordaSala {
     width: 200vh;
     border-radius: 12px;
-    background-color: #FFFFE0;
+    background-color: #ffecc7;
     padding: 12px;
 }
 .box-eight {
@@ -282,7 +286,7 @@ body {
     height: 550px;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
-    background-color: #FFFFE0;
+    background-color: #FFFFE0e0;
     font-size: 30px;
  }
 
