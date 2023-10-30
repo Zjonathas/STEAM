@@ -81,9 +81,13 @@ body {
 }
 
 .box_four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     padding-top: 15px;
     background-color: #A0522D;
+    height: 50vh;
 
 }
 
@@ -267,6 +271,7 @@ body {
 }
 
 .bordaSala {
+    width: 200vh;
     border-radius: 12px;
     background-color: #FFFFE0;
     padding: 12px;
@@ -319,3 +324,8 @@ body {
     border-radius: 12px;
     font-size: 23px;
 } */
+
+.texto_base{
+    font-size: 20px;
+    text-align: justify;
+}
