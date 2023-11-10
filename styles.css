@@ -4,6 +4,43 @@ body {
     background-size: cover;
 }
 
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40%;
+    overflow: hidden;
+    background-color: #FFA500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.nav li a:hover:not(.active) {
+    background-color: #060606;
+  }
+  
+.nav .active {
+    background-color: #050505;
+  }
+
+footer {
+   padding: 5px;
+   background-color: #FFA500;
+   text-align: center;
+}
+
 .teste1 {
     height: auto;
     width: auto;
@@ -341,6 +378,7 @@ body {
     height: 550px;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
+    background-color: #FFFFE0e0;
     font-size: 30px;
 }
 
@@ -352,14 +390,20 @@ body {
 .text {
     display: table-cell;
     float: left;
-    width: 500px;
-    margin-left: 20%;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 15%;
 }
 
-.imge {
+.text-title {
+    margin-top: 10%;
+}
+
+.box-eight iframe {
     display: table-cell;
     float: right;
-    margin-right: 25%;
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 .titulo_section_nine {
