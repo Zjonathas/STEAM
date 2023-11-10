@@ -1,17 +1,14 @@
 body {
     margin: 0;
     background-color: #FFFFE0;
-    background-size: cover;
 }
 
 .nav ul {
     list-style-type: none;
-    margin: 0;
-    padding-left: 40%;
+    margin-top: 0;
     overflow: hidden;
+    padding-left: 0;
     background-color: #FFA500;
-    position: fixed;
-    top: 0;
     width: 100%;
   }
   
