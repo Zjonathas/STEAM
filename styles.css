@@ -355,8 +355,8 @@ footer {
     transform: scale(1.1);
 }
 
-.alinhar {
-    display: inline;
+.tamanho_nine {
+    max-width: 350px;
 }
 
 .bordaSala {
@@ -434,14 +434,10 @@ footer {
 
 
 
-/* .font_text_section_nine{
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-    font-size: 23px;
-} */
+.font_texto_section_nine{
+    font-size: 20px;
+    text-align: center;
+}
 
 .texto_base {
     font-size: 20px;
