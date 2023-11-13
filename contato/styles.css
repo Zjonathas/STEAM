@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('/imgs/foto4.jpg');
+}
+
+.cabecalho {
+    background-image: url('/imgs/foto4.jpg');
+    background-color: #0000005e;
+    height: 500px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.titulo_inical{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#color_titulo_inicial {
+    color: #FFA500;
+}
+
+#texto_inicial{
+    font-size: 20px;
+    width: 900px;
+}
