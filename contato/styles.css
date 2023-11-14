@@ -127,4 +127,75 @@ body {
         margin: 0;
     }
 
+    #formulario_texto>h2 {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
+        ;
+    
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+    
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+    
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+    
+        font-size: 25px;
+    }
+
+    .entrada {
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+        padding: 10px 2px 2px;
+        background-color: #4f4f4f;
+        border: none;
+        border-radius: 4px;
+    }
+    
+    .imagem {
+        width: auto;
+        max-width: 200px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        font-size: 19px;
+        transition-duration: 500ms;
+    }
+    
+    
+    
+    .forms {
+        display: flex;
+        padding: 50px;
+        gap: 50px;
+        border: #4f4f4f;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffefd3;
+    }
+    
+    .estilo_forms {
+        border: none;
+        padding: 5px;
+    }
+    
+    #mensagem {
+        color: #fff;
+        font-size: 12px;
+        width: 100%;
+        height: 50%;
+        padding: 10px 2px 2px;
+        background-color: #4f4f4f;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .forms{
+        height: 600px;
+    }
+
 }
