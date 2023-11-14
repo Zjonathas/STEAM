@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     /* background-image: url(imgs/foto4.jpg); */
@@ -11,7 +11,7 @@ body{
     color: white;
 }
 
-.titulo_inical{
+.titulo_inical {
     text-align: left;
     font-size: 40px;
     margin-left: 50px;
@@ -21,7 +21,7 @@ body{
     color: #FFA500;
 }
 
-#texto_inicial{
+#texto_inicial {
     font-size: 20px;
     width: 900px;
 }
@@ -38,9 +38,72 @@ body{
     height: 100%;
 }
 
+#formulario_texto>h2 {
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
+    ;
+
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Alguns navegadores precisam do prefixo */
+
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+
+    font-size: 50px;
+}
+
+.entrada {
+    color: #fff;
+    font-size: 28px;
+    width: 100%;
+    padding: 20px 5px 5px;
+    background-color: #4f4f4f;
+    border: none;
+    border-radius: 4px;
+}
+
+.imagem {
+    width: auto;
+    max-width: 370px;
+    object-fit: cover;
+    border-radius: 12px;
+    font-size: 19px;
+    transition-duration: 500ms;
+}
 
 
-@media screen and (width <= 948px) {
+
+.forms {
+    display: flex;
+    padding: 100px;
+    gap: 100px;
+    border: #4f4f4f;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffefd3;
+}
+
+.estilo_forms {
+    border: none;
+    padding: 5px;
+}
+
+#mensagem {
+    color: #fff;
+    font-size: 12px;
+    width: 50%;
+    padding: 20px 5px 5px;
+    background-color: #4f4f4f;
+    border: none;
+    border-radius: 4px;
+}
+
+@media screen and (width <=948px) {
     .cabecalho {
         background-image: url(imgs/foto4.jpg);
         background-size: contain;
@@ -48,14 +111,14 @@ body{
         color: white;
         margin: 0;
     }
-    
-    .titulo_inical{
+
+    .titulo_inical {
         text-align: left;
         font-size: 20px;
         margin-left: 50px;
     }
 
-    #texto_inicial{
+    #texto_inicial {
         font-size: 20px;
         width: auto;
     }
