@@ -1,22 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url('/imgs/foto4.jpg');
+    /* background-image: url(imgs/foto4.jpg); */
 }
 
 .cabecalho {
-    background-image: url('/imgs/foto4.jpg');
-    background-color: #0000005e;
+    background-image: url(imgs/foto4.jpg);
+    background-size: contain;
     height: 500px;
     color: white;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
-    padding: 30px;
 }
 
 .titulo_inical{
@@ -32,4 +24,44 @@ body{
 #texto_inicial{
     font-size: 20px;
     width: 900px;
+}
+
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (width <= 948px) {
+    .cabecalho {
+        background-image: url(imgs/foto4.jpg);
+        background-size: contain;
+        height: 500px;
+        color: white;
+        margin: 0;
+    }
+    
+    .titulo_inical{
+        text-align: left;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    #texto_inicial{
+        font-size: 20px;
+        width: auto;
+    }
+
+    .fundo {
+        margin: 0;
+    }
+
 }
