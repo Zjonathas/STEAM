@@ -90,7 +90,12 @@ body {
 
 .estilo_forms {
     border: none;
-    padding: 5px;
+    border-color: #FFA500;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: white;
+    border-style: inset;
+    box-shadow: 10px 5px 5px #4f4f4f;
 }
 
 #mensagem {
@@ -115,7 +120,7 @@ body {
     .titulo_inical {
         text-align: left;
         font-size: 20px;
-        margin-left: 50px;
+        margin-right: 50px;
     }
 
     #texto_inicial {
@@ -131,18 +136,18 @@ body {
         /* Primeiro passo: definir um degradê como fundo */
         background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
         ;
-    
+
         /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
         background-clip: text;
         -webkit-background-clip: text;
         /* Alguns navegadores precisam do prefixo */
-    
+
         /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
         -webkit-text-fill-color: transparent;
-    
+
         /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
         color: black;
-    
+
         font-size: 25px;
     }
 
@@ -155,34 +160,35 @@ body {
         border: none;
         border-radius: 4px;
     }
-    
+
     .imagem {
-        width: auto;
-        max-width: 200px;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 12px;
-        font-size: 19px;
-        transition-duration: 500ms;
+        display: none;
     }
-    
-    
-    
+
+
+
     .forms {
         display: flex;
-        padding: 50px;
-        gap: 50px;
         border: #4f4f4f;
         justify-content: center;
         align-items: center;
+        justify-items: center;
+        flex-direction: column-reverse;
         background-color: #ffefd3;
     }
-    
+
     .estilo_forms {
         border: none;
-        padding: 5px;
+        border-color: #FFA500;
+        padding: 15px;
+        border-radius: 12px;
+        background-color: white;
+        border-style: inset;
+        box-shadow: 10px 5px 5px #4f4f4f;
+        width: 300px;
+
     }
-    
+
     #mensagem {
         color: #fff;
         font-size: 12px;
@@ -194,8 +200,11 @@ body {
         border-radius: 4px;
     }
 
-    .forms{
-        height: 600px;
+    .forms {
+        height: auto;
+    }
+
+    .formulario_div {
     }
 
 }
