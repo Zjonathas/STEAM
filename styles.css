@@ -450,6 +450,8 @@ footer {
 
 .check{
     transition-duration: 500ms;
+    height: 500px;
+    width: 500px;
 }
 
 .animacao:hover{
