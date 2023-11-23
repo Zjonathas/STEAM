@@ -73,10 +73,13 @@ body {
     object-fit: cover;
     border-radius: 12px;
     font-size: 19px;
+    box-shadow: 10px 5px 5px #4f4f4f;
     transition-duration: 500ms;
 }
 
-
+.imagem:hover{
+    transform: scale(1.1);
+}
 
 .forms {
     display: flex;
@@ -106,6 +109,41 @@ body {
     background-color: #4f4f4f;
     border: none;
     border-radius: 4px;
+}
+
+.rodape{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 100px;
+    color: #FFA500;
+    background-color: black;
+}
+
+.links {
+    text-decoration: none;
+    color: #FFA500;
+}
+
+.links:link {
+    text-decoration: none;
+    color:#FFA500;
+}
+
+.instagram {
+    width: 100px;
+    object-fit: cover;
+}
+
+.email {
+    width: 100px;
+    object-fit: cover;
+}
+
+.redes {
+    display: flex;
 }
 
 @media screen and (width <=948px) {
@@ -203,5 +241,29 @@ body {
     .forms {
         height: auto;
     }
+
+    .instagram {
+        width: 50px;
+        object-fit: cover;
+    }
+
+    .email {
+        width: 40px;
+        object-fit: cover;
+    }
+
+    .rodape{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+        padding: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: #FFA500;
+        background-color: black;
+    }
+
 
 }
