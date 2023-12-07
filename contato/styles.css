@@ -133,17 +133,21 @@ body {
 }
 
 .instagram {
-    width: 100px;
+    width: 90px;
     object-fit: cover;
 }
 
 .email {
-    width: 100px;
+    width: 90px;
     object-fit: cover;
 }
 
 .redes {
     display: flex;
+}
+
+.textoredes {
+    margin-left: 20px;
 }
 
 @media screen and (width <=948px) {
