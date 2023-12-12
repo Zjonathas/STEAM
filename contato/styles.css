@@ -157,6 +157,10 @@ body {
     Box-shadow: 4px 4px 5px #8d5c02;
 }
 
+.textoredes {
+    margin-left: 20px;
+}
+
 @media screen and (width <=948px) {
     .cabecalho {
         background-image: url(imgs/foto4.jpg);
