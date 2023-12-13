@@ -1,275 +1,180 @@
-body {
+* {
     padding: 0;
     margin: 0;
-    /* background-image: url(imgs/foto4.jpg); */
+    box-sizing: border-box;
 }
 
-.cabecalho {
-    background-image: url(imgs/foto4.jpg);
-    background-size: contain;
-    height: 500px;
-    color: white;
+html {
+    font-size: 62.5%;
 }
 
-.titulo_inical {
-    text-align: left;
-    font-size: 40px;
-    margin-left: 50px;
-}
-
-#color_titulo_inicial {
-    color: #FFA500;
-}
-
-#texto_inicial {
-    font-size: 20px;
-    width: 900px;
-}
-
-
-.fundo {
-    background-color: rgba(0, 0, 0, 0.603);
+body {
+    font-size: 1.6rem;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    align-items: center;
+    margin: 0;
+    background-color: #161616;
+    color: white;
+
 }
 
-#formulario_texto>h2 {
-    /* Primeiro passo: definir um degradê como fundo */
-    background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
-    ;
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
-    background-clip: text;
-    -webkit-background-clip: text;
-    /* Alguns navegadores precisam do prefixo */
 
-    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
-    -webkit-text-fill-color: transparent;
+.inputBox {
+    margin-bottom: 2rem;
+}
 
-    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+.inputBox > span {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.form-container {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 50vh;
+    /* border: 1px solid #ccc; */
+    gap: 4rem;
+    padding: 5rem;
+    background-color: #505050;
+    border-radius: 10px;
+    box-shadow: 1px -1px 7px 1px #cacaca
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.inputBox {
+    font-size: 1.8rem;
+}
+
+.inputBox>input {
+    width: 30rem;
+    height: 4rem;
+    border: 1px solid #948c8c;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.inputBox>textarea {
+    width: 30rem;
+    height: 13rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;  
+}
+
+.inputBox>button {
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    margin-left: 5vh;
+}
+
+.input-box>input:focus {
+    outline: none;
+    border: 1px solid #161616;
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #161616;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
     color: black;
-
-    font-size: 50px;
+    width:40vh;
 }
 
-.gradiente {
-    /* Primeiro passo: definir um degradê como fundo */
-    background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #161616;
     color: white;
 }
 
-.entrada {
-    color: #fff;
-    font-size: 16px;
-    width: 100%;
-    padding: 20px 5px 5px;
-    background-color: #4f4f4f;
-    border: none;
-    border-radius: 4px;
-}
-
-.forms {
-    display: flex;
-    padding: 100px;
-    gap: 100px;
-    border: #4f4f4f;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffefd3;
-}
-
-.estilo_forms {
-    border: none;
-    border-color: #FFA500;
-    padding: 15px;
-    border-radius: 12px;
-    background-color: white;
-    border-style: inset;
-    box-shadow: 10px 5px 5px #4f4f4f;
-}
-
-#mensagem {
-    color: #fff;
-    font-size: 12px;
-    width: 50%;
-    padding: 20px 5px 5px;
-    background-color: #4f4f4f;
-    border: none;
-    border-radius: 4px;
-}
-
-.rodape{
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    justify-items: center;
-    padding: 50px;
-    color: #FFA500;
-    background-color: black;
-}
-
-.links {
-    text-decoration: none;
-    color: #FFA500;
-}
-
-.links:link {
-    text-decoration: none;
-    color:#FFA500;
-}
-
-.instagram {
-    width: 50px;
-    object-fit: cover;
-}
-
-.email {
-    width: 50px;
-    object-fit: cover;
-}
-
-.redes {
-    display: flex;
-    gap: 5px;
-}
-
-.button-enviar {
-    width: 100%;
-    height: 6vh;
-    border: none;
-    border-radius: 5px;
-    transition: all 300ms ease-in-out;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.button-enviar:hover{
-    filter: brightness(0.8);
-}
-
-.sombra {
-    Box-shadow: 4px 4px 5px #8d5c02;
-}
-
-
-@media screen and (width <=948px) {
-    .cabecalho {
-        background-image: url(imgs/foto4.jpg);
-        background-size: contain;
-        height: 500px;
-        color: white;
-        margin: 0;
+@media screen and (max-width: 768px) {
+    .container {
+        height: 40vh;
+        margin: 0 auto;
+        padding: 0 2rem;
     }
 
-    .titulo_inical {
-        text-align: left;
-        font-size: 20px;
-        margin-right: 50px;
+
+    .inputBox {
+        margin-bottom: .5rem;
     }
 
-    #texto_inicial {
-        font-size: 20px;
-        width: auto;
+    .form-container {
+        margin-top: 20vh;
+        height: 50vh;
+        width: 30vh;
+        gap: 2rem;
+        padding: 2rem;
     }
 
-    .fundo {
-        margin: 0;
-    }
-
-    #formulario_texto>h2 {
-        /* Primeiro passo: definir um degradê como fundo */
-        background-image: linear-gradient(to bottom, orange 10%, #5e3e02);
-        ;
-
-        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
-        background-clip: text;
-        -webkit-background-clip: text;
-        /* Alguns navegadores precisam do prefixo */
-
-        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
-        -webkit-text-fill-color: transparent;
-
-        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
-        color: black;
-
-        font-size: 25px;
-    }
-
-    .entrada {
-        color: #fff;
-        font-size: 16px;
-        width: 100%;
-        padding: 10px 2px 2px;
-        background-color: #4f4f4f;
-        border: none;
-        border-radius: 4px;
+    .container-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
     }
     
-    .forms {
-        display: flex;
-        border: #4f4f4f;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        flex-direction: column-reverse;
-        background-color: #ffefd3;
+    .inputBox {
+        font-size: 1.4rem;
+    }
+    
+    .inputBox>input {
+        width: 20rem;
+        height: 4rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0 1rem;
+        font-size: 1.8rem;
+    }
+    
+    .inputBox>textarea {
+        width: 20rem;
+        height: 7.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
     }
 
-    .estilo_forms {
-        border: none;
-        border-color: #FFA500;
-        padding: 15px;
-        border-radius: 12px;
-        background-color: white;
-        border-style: inset;
-        box-shadow: 10px 5px 5px #4f4f4f;
-        width: 300px;
-
+    .button_slide{
+        padding: 9px 18px;
+        width: 13vh;
     }
-
-    #mensagem {
-        color: #fff;
-        font-size: 12px;
-        width: 100%;
-        height: 50%;
-        padding: 10px 2px 2px;
-        background-color: #4f4f4f;
-        border: none;
-        border-radius: 4px;
-    }
-
-    .forms {
-        height: auto;
-    }
-
-    .instagram {
-        width: 50px;
-        object-fit: cover;
-    }
-
-    .email {
-        width: 40px;
-        object-fit: cover;
-    }
-
-    .rodape{
-        font-size: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        justify-items: center;
-        padding: 100px;
-        padding-left: 50px;
-        padding-right: 50px;
-        color: #FFA500;
-        background-color: black;
-    }
-
-
+    
 }
