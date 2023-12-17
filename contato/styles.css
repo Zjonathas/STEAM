@@ -16,7 +16,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: #161616;
-    color: white;
+    color: #c7a014;
 
 }
 
@@ -96,7 +96,7 @@ body {
 } */
 
 .button_slide {
-    color: #FFF;
+    color: black;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 0px;
     padding: 18px 36px;
@@ -109,8 +109,8 @@ body {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
-    color: black;
     width:40vh;
+    background-color: #c7a014;
 }
 
 .slide_right:hover {
@@ -183,7 +183,7 @@ body {
     font-family: inherit;
     width: 100%;
     border: 0;
-    border-bottom: 2px solid #9b9b9b;
+    border-bottom: 2px solid #c7a014;
     outline: 0;
     font-size: 1.3rem;
     color: #fff;
