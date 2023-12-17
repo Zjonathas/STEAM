@@ -237,7 +237,7 @@ footer {
 }
 
 .texto_boxs{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .box_sixe {
@@ -514,3 +514,34 @@ footer {
     filter: brightness(0.4);
   }
 
+/* Estilo para o botão de volta ao início */
+#backToTopBtn {
+    display: none; /* Esconde o botão por padrão */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FFA500;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+#backToTopBtn:hover {
+    background-color: #c07d00;
+  }
+  
+  /* Mostra o botão quando o usuário rolar a página para baixo */
+  @media only screen and (max-width: 600px) {
+    #backToTopBtn{
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+  
