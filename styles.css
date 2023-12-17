@@ -196,13 +196,13 @@ footer {
     margin: 1em;
     padding: 10px;
     text-align: center;
-    background-color: #FFD700;
+    background-color: #FFA500;
     border-radius: 10px;
     transition-duration: 500ms;
 }
 
 .box:hover{
-    transform: scale(1.07);
+    transform: scale(1.03);
 }
 
 .box2 {
@@ -212,13 +212,13 @@ footer {
     margin: 1em;
     padding: 10px;
     text-align: center;
-    background-color: #FFD700;
+    background-color: #FFA500;
     border-radius: 10px;
     transition-duration: 500ms;
 }
 
 .box2:hover{
-    transform: scale(1.07);
+    transform: scale(1.03);
 }
 
 .box3 {
@@ -227,13 +227,13 @@ footer {
     margin: 1em;
     padding: 10px;
     text-align: center;
-    background-color: #FFD700;
+    background-color: #FFA500;
     border-radius: 10px;
     transition-duration: 500ms;
 }
 
 .box3:hover{
-    transform: scale(1.07);
+    transform: scale(1.03);
 }
 
 .texto_boxs{
@@ -296,7 +296,7 @@ footer {
     min-height: 550px;
     display: flex;
     justify-content:center;
-    gap: 35px;
+    gap: 27px;
     border-top: 0px solid black;
     border-bottom: 1px solid black;
 }
@@ -311,7 +311,7 @@ footer {
 
 .display_ordem_texto_box_seven {
     display: flex;
-    gap: 11px;
+    gap: 38px;
     flex-direction: column;
     font-size: 30px;
 }
