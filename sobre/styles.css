@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+}
+
+.caixa_titulo {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Regular 400 Italic, sans-serif;
+    text-align: center;
+    color: #f5c316;
+    font-size: 17px;
+    background-color: #000000;
+}
+
+.imagem_1 {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 70px;
+    font-size: 19px;
+}
+
+.texto_box {
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
+}
+
+.box_two {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #f5c316;
+    text-align: right;
+    gap: 100px;
+}
+
+.box_thre {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    color: #f5c316;
+    text-align: right;
+    background-color: #222222;
+    gap: 100px;
+
+}
+
+.box_fuor {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #f5c316;
+    text-align: right;
+    gap: 100px;
+}
+
+.box_five {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    color: #f5c316;
+    text-align: right;
+    background-color: #222222;
+    gap: 100px;
+}
+
+.box_six {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #f5c316;
+    text-align: right;
+    gap: 100px;
+}
+
+.box_seven {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    color: #f5c316;
+    text-align: right;
+    background-color: #222222;
+    gap: 100px;
+}
+
+.box_height {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #f5c316;
+    text-align: right;
+    gap: 100px;
+}
+
+
+nav {
+    background-color: #222222;   
+    top: 130px; 
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 4px solid #302c2c;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footer-padrao {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+    font-size: 17px;
+  }
+  
+  .footer-content p:first-child {
+    margin-top: 0;
+  }
+  .footer-content p > a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  .footer-content p > a:hover {
+    filter: brightness(0.4);
+  }
+
+
+/* Estilo para o botão de volta ao início */
+#backToTopBtn {
+  display: none; /* Esconde o botão por padrão */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #FFA500;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
+  transition: all 0.3s ease-in-out;
+}
+
+#backToTopBtn:hover {
+  background-color: #c07d00;
+}
+
+/* Mostra o botão quando o usuário rolar a página para baixo */
+@media only screen and (max-width: 600px) {
+  #backToTopBtn{
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
