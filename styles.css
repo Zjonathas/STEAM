@@ -17,6 +17,13 @@ body {
     background-color: #FFA500;
     width: 100%;
   }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
   
 .nav li {
     float: left;
@@ -290,43 +297,6 @@ footer {
     flex-direction: column;
 }
 
-
-.box_seven {
-    width: 100%;
-    min-height: 550px;
-    display: flex;
-    justify-content:center;
-    gap: 27px;
-    border-top: 0px solid black;
-    border-bottom: 1px solid black;
-}
-
-.display_ordem_numero_box_seven {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 30px;
-}
-
-.display_ordem_texto_box_seven {
-    display: flex;
-    gap: 38px;
-    flex-direction: column;
-    font-size: 30px;
-}
-
-.numero_ordem{
-    background-color: #FFA500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-}
 
 .box_height {
     width: 100%;

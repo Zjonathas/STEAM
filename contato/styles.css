@@ -16,7 +16,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: #161616;
-    color: #c7a014;
+    color: white;
 
 }
 
@@ -110,7 +110,7 @@ body {
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     width:40vh;
-    background-color: #c7a014;
+    background-color: #ffffff;
 }
 
 .slide_right:hover {
@@ -183,7 +183,7 @@ body {
     font-family: inherit;
     width: 100%;
     border: 0;
-    border-bottom: 2px solid #c7a014;
+    border-bottom: 2px solid rgb(128, 128, 128);
     outline: 0;
     font-size: 1.3rem;
     color: #fff;
