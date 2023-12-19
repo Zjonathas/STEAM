@@ -125,11 +125,14 @@ body {
     gap: 1rem;
 }
 
-@media screen and (max-width: 1368px){
+@media screen and (width <= 900px){
     .form-container {
-        height: 85vh;
+        height: 80vh;
         width: 60vh;
 
+    }
+    .horarios {
+        width: 3rem;
     }
 }
 
@@ -138,6 +141,10 @@ body {
         height: 40vh;
         margin: 0 auto;
         padding: 0 2rem;
+    }
+
+    .horarios{
+        position: relative;
     }
 
 
