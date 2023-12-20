@@ -47,11 +47,12 @@ body {
     height: 75vh;
     width: 50vh;
     /* border: 1px solid #ccc; */
-    gap: 4rem;
+    gap: 3.5rem;
     padding: 5rem;
     background-color: #505050;
     border-radius: 10px;
-    box-shadow: 1px -1px 8px 1px #cacaca
+    box-shadow: 1px -1px 8px 1px #cacaca;
+    padding: 2rem;
 }
 
 .container-inputs {
@@ -122,30 +123,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
     gap: 1rem;
 }
 
-@media screen and (width <= 900px){
-    .form-container {
-        height: 80vh;
-        width: 60vh;
 
-    }
-    .horarios {
-        width: 3rem;
-    }
-}
-
-@media screen and (max-width: 768px){
+@media screen and (height <= 920px) and (height > 885px){
     .container {
         height: 40vh;
         margin: 0 auto;
         padding: 0 2rem;
     }
 
-    .horarios{
-        position: relative;
-    }
 
 
     .inputBox {
@@ -154,8 +143,111 @@ body {
 
     .form-container {
         margin-top: 20vh;
-        height: 60vh;
+        height: 70vh;
         width: 40vh;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .container-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .inputBox {
+        font-size: 1.4rem;
+    }
+    
+
+
+    
+    .inputBox>textarea {
+        width: 20rem;
+        height: 10rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .button_slide{
+        padding: 9px 18px;
+        width: 13vh;
+    }
+}
+
+@media screen and (height <= 660px) {
+    .container {
+        height: 40vh;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+
+
+    .inputBox {
+        margin-bottom: .5rem;
+    }
+
+    .form-container {
+        margin-top: 20vh;
+        height: 50rem;
+        width: 40rem;
+        gap: 2rem;
+        padding: 2rem;
+        margin-bottom: 20vh;
+    }
+
+    .container-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .inputBox {
+        font-size: 1.4rem;
+    }
+    
+
+
+    
+    .inputBox>textarea {
+        width: 20rem;
+        height: 10rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .button_slide{
+        padding: 9px 18px;
+        width: 20rem;
+    }
+}
+
+@media screen and (height <= 895px) and (height > 660px){
+    .container {
+        height: 40vh;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+
+
+    .inputBox {
+        margin-bottom: .5rem;
+    }
+
+    .form-container {
+        margin-top: 20vh;
+        height: 70vh;
+        width: 50vh;
         gap: 2rem;
         padding: 2rem;
     }
