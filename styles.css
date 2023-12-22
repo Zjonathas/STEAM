@@ -247,57 +247,6 @@ footer {
     font-size: 20px;
 }
 
-.box_sixe {
-    width: 100%;
-    min-height: 550px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
-    border-top: 0px solid black;
-    border-bottom: 1px solid black;
-    justify-content: space-evenly;
-}
-
-.title_box_six {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    flex-direction: column;
-    font-size: 30px;
-}
-
-.txt_6-1 {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.txt_6-2 {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.txt_6-3 {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
 .box_height {
     width: 100%;
     min-height: 550px;
@@ -358,15 +307,6 @@ footer {
     max-width: 350px;
 }
 
-.bordaSala {
-    width: 200vh;
-    border-radius: 12px;
-    background-color: #ffecc7;
-    padding: 20px;
-    box-shadow: 3px 3px 10px #b4a077;
-}
-
-
 .box-eight {
     display: flex;
     justify-content: space-around;
@@ -393,30 +333,6 @@ footer {
 .como_chegar > h2{
     font-size: 40px;
 }
-
-/* .box-eight h2 {
-    text-align: center;
-    margin-right: 35%;
-}
-
-.text {
-    display: table-cell;
-    float: left;
-    font-size: 20px;
-    width: 600px;
-    margin-left: 15%;
-}
-
-.text-title {
-    margin-top: 10%;
-}
-
-.box-eight iframe {
-    display: table-cell;
-    float: right;
-    margin-right: 5%;
-    margin-bottom: 10%;
-} */
 
 .titulo_section_nine {
     font-size: 20px;
