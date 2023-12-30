@@ -81,14 +81,15 @@ footer {
     width: 100%;
     min-height: 550px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font: solid rgb(0, 0, 0);
     text-align: right;
     gap: 250px;
 }
 
 .box_two>div>h2 {
+    font-size: 40px;
     color: black;
     text-shadow: 1px 1px 2px black;
 }
@@ -100,7 +101,7 @@ footer {
 
 
 .texto_box_two {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
 }
@@ -111,7 +112,8 @@ footer {
 }
 
 .imagem_1 {
-    max-width: 650px;
+    margin: 20px;
+    width: 650px;
     height: 450px;
     object-fit: cover;
     border-radius: 12px;
@@ -167,7 +169,7 @@ footer {
 .box_thre>div>h2 {
     color: black;
     text-shadow: 1px 1px 2px black;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .box_thre>div>h2>span {
@@ -311,11 +313,10 @@ footer {
 
 .img {
     width: 100%;
-    max-width: 350px;
+    width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 12px;
-    font-size: 19px;
     Box-shadow: 5px 5px 15px #0c0c0c;
     transition-duration: 500ms;
 
@@ -453,7 +454,7 @@ footer {
     }
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
     .caixa_titulo {
         width: 100%;
@@ -518,7 +519,7 @@ footer {
 
     .texto_box_two {
         max-width: 290px;
-        font-size: 15px!important;
+        font-size: 15px;
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -532,7 +533,7 @@ footer {
     }
 
     .box_thre > div > h2{
-        font-size: 2rem !important ;
+        font-size: 30px;
     }
 
     .box_thre{
@@ -695,7 +696,7 @@ footer {
     }
 
     .como_chegar > h2 {
-        font-size: 2rem !important;
+        font-size: 2rem;
     }
 
     .box-eight {
