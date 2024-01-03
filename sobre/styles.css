@@ -229,7 +229,63 @@ nav a:focus {
     right: 10px;
   }
 }
+/* responsividade */
 
+  /* "titulo" Ajustes para telas menores que 750px */
+  @media only screen and (max-width: 750px) {
+    .caixa_titulo {
+        font-size: 15px;  /* Tamanho de fonte ajustado para telas menores */
+    }
+  }
+  
+  /* Ajustes para a barra de navegação em telas menores que 924px */
+  @media only screen and (max-width: 924px) {
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap; /* Permitir que os elementos quebrem para a próxima linha */
+        justify-content: center;
+    }
+  
+    nav li {
+        margin: 3px;
+        margin-bottom: 10px; /* Adiciona espaçamento na parte inferior de cada item */
+    }
+  
+    nav a {
+        padding: 8px;
+        margin: 2px;
+    }
+  }
+  
+  
+   /* Ajustes para caixas de informações em telas menores que 700px */
+  @media only screen and (max-width: 700px) {
+    .box_two,
+    .box_thre,
+    .box_fuor,
+    .box_five,
+    .box_six,
+    .box_seven {
+        flex-direction: column; /* Altera para layout vertical */
+        text-align: center; /* Centraliza o texto */
+        height: 400px;
+    }
+  
+    .imagem_1 {
+        display: none; /* Remove a imagem quando a tela for menor que 700px */
+    }
+  
+    .elements{
+      margin: 20px;
+    }
+  
+    .texto_box {
+        width: 100%;
+        font-size: 16px; /* Tamanho de fonte ajustado para telas menores */
+    }
+  }
+  
+  
 
 
 
