@@ -120,15 +120,6 @@ body {
     color: white;
 }
 
-.horarios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    gap: 1rem;
-}
-
-
 @media screen and (height <= 920px) and (height > 885px){
     .container {
         height: 40vh;
