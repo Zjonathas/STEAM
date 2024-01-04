@@ -348,10 +348,11 @@ footer {
 }
 
 .como_chegar{
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
+    text-align: center ;
 }
 
 .como_chegar > h2{
