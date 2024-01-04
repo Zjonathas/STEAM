@@ -644,10 +644,11 @@ footer {
     }
 
     .sub_box_nine {
+        margin: 20px !important;
         height: auto;
         margin: 20px 0;
         flex-direction: column;
-        gap: 50px;
+        gap: 25px;
         padding: 20px;
     }
 
@@ -664,6 +665,7 @@ footer {
 
     .titulo_section_nine {
         font-size: 20px;
+        margin: 0;
     }
 
     .article {
