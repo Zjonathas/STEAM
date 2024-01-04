@@ -129,8 +129,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black !important;
     font: solid rgb(0, 0, 0);
     text-align: right;
     gap: 250px;
@@ -195,7 +194,6 @@ footer {
     display: flex;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    font: solid rgb(0, 0, 0);
     text-align: right;
     text-align: center;
     justify-content: center;
@@ -642,7 +640,7 @@ footer {
     }
 
     .sub_box_nine {
-        height: fit-content;
+        height: auto;
         margin: 20px 0;
         flex-direction: column;
         gap: 50px;
@@ -665,6 +663,7 @@ footer {
     }
 
     .article {
+        height: fit-content;
         flex-direction: column;
         gap: 50px;
     }
@@ -775,4 +774,8 @@ footer {
     .footer-padrao {
         padding: 10px 0;
     }
+
+    /*#manejo {
+        position: absolute;
+    }*/
 }
