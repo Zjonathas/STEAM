@@ -551,7 +551,11 @@ footer {
         border-radius: 12px;
         font-size: 19px;
         transition-duration: 500ms;
-        margin-left: 0px;
+        margin: 0 auto;
+    }
+
+    #imagem_2 {
+        margin-top: 20px;
     }
 
     .foto_2 {
@@ -663,8 +667,8 @@ footer {
     }
 
     .article {
-        height: fit-content;
-        flex-direction: column;
+        display: flex;
+        flex-flow: column wrap;
         gap: 50px;
     }
 
@@ -775,7 +779,4 @@ footer {
         padding: 10px 0;
     }
 
-    /*#manejo {
-        position: absolute;
-    }*/
 }
