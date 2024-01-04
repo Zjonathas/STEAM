@@ -350,7 +350,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    text-align: center ;
+    text-align: justify;
 }
 
 .como_chegar > h2{
