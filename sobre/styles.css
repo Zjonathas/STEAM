@@ -1,3 +1,5 @@
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -280,9 +282,15 @@ nav a:focus {
     }
   
     .texto_box {
-        width: 100%;
+        width: 70%;
         font-size: 16px; /* Tamanho de fonte ajustado para telas menores */
     }
+
+    .texto_box > p{
+      width: 50%;
+      font-size: 16px; /* Tamanho de fonte ajustado para telas menores */
+  }
+
   }
 /* footergit */
   @media only screen and (max-width: 600px) {
