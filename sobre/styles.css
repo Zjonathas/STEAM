@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
@@ -123,6 +128,15 @@ body {
     gap: 100px;
 }
 
+.box_two, .box_thre, .box_fuor, .box_five, .box_six, .box_seven, .box_height {
+    width: 100%;
+}
+
+.texto_box > p {
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
+}
 
 nav {
     background-color: #222222;   
@@ -140,6 +154,7 @@ nav ul {
     justify-content: center;
     padding: 10px;
     margin: 0; 
+    width: 100%;
 }
 
 nav li {
@@ -262,6 +277,9 @@ nav a:focus {
   
    /* Ajustes para caixas de informações em telas menores que 700px */
   @media only screen and (max-width: 924px) {
+    body {
+      overflow-x: hidden !important;
+    }
     .box_two,
     .box_thre,
     .box_fuor,
@@ -289,6 +307,10 @@ nav a:focus {
     .texto_box > p{
       width: 50%;
       font-size: 16px; /* Tamanho de fonte ajustado para telas menores */
+  }
+
+  .box_two, .box_thre, .box_fuor, .box_five, .box_six, .box_seven, .box_height {
+    height: fit-content;
   }
 
   }
